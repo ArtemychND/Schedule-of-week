@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar {
+  width: 50rem;
+  margin: 10rem auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select,
+button {
+  width: 160px;
+  height: 34px;
+  line-height: 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  outline: none;
+}
+
+table {
+  width: 50rem;
+  padding: 0;
+  table-layout: fixed;
+}
+
+th {
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0 !important;
+}
+
+.eventCell {
+  padding: 10px;
+  background: yellowgreen;
+  background-size: cover; 
+}
+.eventCell span.text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: start;
+  display: inline-block;
+  width: 100px;
+}
+
+.eventCell span.delete {
+  vertical-align: super;
+}
+
+span.delete:hover,
+span.delete:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+/* .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal-content {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 2rem;
+  background-color: #fff;
+  top: 20vh;
+  left: 40vw;
+  width: 30rem;
+  height: 5rem;
+} */

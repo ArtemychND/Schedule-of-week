@@ -1,5 +1,5 @@
 (function () {
-  
+
   const events = JSON.parse(localStorage.getItem("events")) || [];
 
   class Calendar {

@@ -38,8 +38,8 @@ function createTable() {
     /**
      * Function createTd - function was created by creating table cells
      * @param {*} row tr element
-     * @param {*} key 
-     * @param {*} i 
+     * @param {*} key Array of time
+     * @param {*} i = j number of iteration, indexday: mon - 0; tue-1 and so on...
      */
 
   function createTd(row, key, i) {

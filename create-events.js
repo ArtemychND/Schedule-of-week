@@ -31,4 +31,3 @@
   }
   new CreateEvents().formActive()
 })()
-
